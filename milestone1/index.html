@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Resume UI Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <div class="resume-left">
+            <div class="profile-picture">
+                <img src="portfolio.jpeg" alt="Profile Picture">
+            </div>
+            <div class="profile-info">
+                <h2 class="name">PARI FATIMA</h2>
+                <p class="role">STUDENT</p>
+                <div class="contact-info">
+					<h3 style="color: white;">CONTACT</h3>
+                    <hr>
+					<br>
+                    <p><span>Phone:</span> +62 000 222 333</p>
+                    <p><span>Email:</span> rosiejack@gmail.com</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <hr>
+                    <ul>
+                        <li>
+                            <span>HTML</span>
+                            <div class="skill-bar">
+                                <div style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>CSS</span>
+                            <div class="skill-bar">
+                                <div style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span>Typescript</span>
+                            <div class="skill-bar">
+                                <div style="width: 50%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="resume-right">
+            <div class="profile-summary">
+                <h3><b>Profile</b></h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+			
+            <div class="education">
+                <h3>Education</h3>
+                <hr>
+                <ul>
+                    <li>
+                        <span style="color: #942929;">2000-2010</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
+                    <li>
+                        <span style="color: #942929;">2010-2013</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
+                    <li>
+                        <span style="color: #942929;">2013-2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="experience">
+                <h3>Experience</h3>
+                <hr>
+                <ul>
+                    <li>
+                        <span style="color: #942929;">2000-2010</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
+                    <li>
+                        <span style="color: #942929;">2010-2013</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
+                    <li>
+                        <span style="color: #942929;">2013-2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <section id="interests">
+                <h3>Interests</h3>
+                <hr>
+                <ul>
+                    <li>
+                        <i class="fas fa-volleyball-ball"></i>
+                        <span>Volleyball</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-book-open"></i>
+                        <span>Reading</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-film"></i>
+                        <span>Movies</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-biking"></i>
+                        <span>Riding</span>
+                    </li>
+                </ul>
+            </section>
+            <button id="toggle-interests" aria-controls="interests"><b>Hide/Show Interests</b></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

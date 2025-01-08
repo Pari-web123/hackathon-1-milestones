@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background: #c4c4c4;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.resume-container {
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 10px;
+}
+
+.resume-left {
+    width: 35%;
+    background: #530909;
+    padding: 20px;
+}
+
+.profile-picture {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture img {
+    width: 80%;
+    display: block;
+    border-radius: 50%;
+}
+
+.profile-info {
+    padding: 20px;
+    color: #84838b;
+}
+
+.name {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+.role {
+    color:white;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+.contact-info span {
+    font-weight: 700;
+    color: white;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.skills li span {
+    font-weight: 700;
+}
+
+.skill-bar {
+    width: 125px;
+    height: 20px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+    box-shadow:0px 0px 10px#ce7676;
+}
+
+.skill-bar div { 
+    height: 100%;
+    background: #942929;
+}
+
+.resume-right {
+    width: 65%;
+    padding: 20px 40px;
+    color: #26252d;
+}
+
+.profile-summary {
+    margin-bottom: 20px;
+}
+
+.profile-summary h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.education {
+    margin-bottom: 20px;
+}
+
+.education h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.education ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education li {
+    margin-bottom: 10px;
+}
+
+.education li span {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+.experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.experience li {
+    margin-bottom: 10px;
+}
+
+.experience li span {
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#interests {
+    margin-bottom: 20px;
+}
+
+#interests h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+
+#interests ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#interests li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+ 
+.hidden{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .resume-container {
+        flex-direction: column;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .resume-left, .resume-right {
+        width: 100%;
+    }
+    .resume-right {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .resume-right {
+        padding: 15px;
+    }
+    .profile-summary h3, .education h3, .experience h3, .interests h3 {
+        font-size: 14px;
+    }
+    .interests ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .interests li {
+        margin: 10px;
+    }
+    .interests i {
+        font-size: 18px;
+    }
+}
